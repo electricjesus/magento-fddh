@@ -15,10 +15,14 @@ Usage
 
 Drag the following bookmarklet over to your bookmarks toolbar and you're set!
 
- - [FDDH:Checkout](CHECKOUT_JS_UGLIFIED)
- - [FDDH:Register](javascript:;) _Coming Soon!_
- - [FDDH:Login](javascript:;) _Coming Soon!_
- - [FDDH:Contact](javascript:;) _Coming Soon!_
+ - FDDH:Checkout
+
+ ```javascript`
+ javascript:CHECKOUT_JS_UGLIFIED
+ ```
+ - FDDH:Register  _Coming Soon!_
+ - FDDH:Login     _Coming Soon!_
+ - FDDH:Contact   _Coming Soon!_
 
 Hacking
 ---------
