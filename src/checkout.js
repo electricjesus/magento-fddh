@@ -32,7 +32,7 @@
 		'[name="shipping[email]"' 					:  'mary.w@test.com',
 		'[name="shipping[street][]"' 				:  '900 Alpha Drive Suite 555',		
 		'[name="shipping[city]"' 					:  'Richardson',
-		'[name="shipping[region_id]"' 				:  'Texas',
+		'[name="shipping[region_id]"' 				:  '57',
 		'[name="shipping[postcode]"' 				:  '78015',
 		'[name="shipping[country_id]"' 				:  'US',
 		'[name="shipping[telephone]"' 				:  '123-223-1234',
