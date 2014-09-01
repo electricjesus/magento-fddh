@@ -13,7 +13,7 @@ Hey Magento Developer! Ever found yourself repeatedly filling out form data espe
 Usage
 -----
 
-Drag the following bookmarklet over to your bookmarks toolbar and you're set!
+Add the following bookmarklets to your bookmarks toolbar and you're set! Click on them when you want to use them.
 
  - FDDH:Checkout
 
