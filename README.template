@@ -1,0 +1,43 @@
+Magento FDDH
+============
+
+
+Introduction
+-------------
+
+#### Magento Form Dummy Data Helper
+
+Hey Magento Developer! Ever found yourself repeatedly filling out form data especially at the checkout section? Think it's a complete waste of time and can't find proper tools to do it? Look no further!
+
+
+Usage
+-----
+
+Drag the following bookmarklet over to your bookmarks toolbar and you're set!
+
+ - [FDDH:Checkout](CHECKOUT_JS_UGLIFIED)
+ - [FDDH:Register](javascript:;) _Coming Soon!_
+ - [FDDH:Login](javascript:;) _Coming Soon!_
+ - [FDDH:Contact](javascript:;) _Coming Soon!_
+
+Hacking
+---------
+
+If you want to develop to contribute to add your own features, just fork and clone this repository and send over your pull requests.
+
+Building is done through grunt commands:
+
+- `grunt exec:build_readme`
+- `grunt dist` - Generates javascript `dist` files which are `concatenated` and `uglified` versions of `src`.
+- `grunt` default task runs `dist` then `exec:build_readme`
+
+
+Roadmap
+-------
+
+Below is a short list of features that would be needed in future developments:
+
+- Register, Login, and Contact form fillers
+- Modularized code (requireJS, probably?)
+- Adaptive fill (depending on form element name, type and/or classes)
+
