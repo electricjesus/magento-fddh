@@ -37,12 +37,7 @@
 		'[name="shipping[country_id]"' 				:  'US',
 		'[name="shipping[telephone]"' 				:  '123-223-1234',
 		'[name="shipping[fax]"' 					:  '123-223-1235',
-		'[name="shipping[save_in_address_book]"'	:  '1',
-
-
-		'[name="shipping_method"'	:  '3DS',
-
-		'[name="payment[method]"'	:  'cashondelivery',
+		'[name="shipping[save_in_address_book]"'	:  '1',		
 
 	}
 
