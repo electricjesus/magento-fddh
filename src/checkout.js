@@ -44,7 +44,7 @@
 	for(element in inputs) {
 		var e = document.querySelector(element);
 		if(e)	{
-			if(e.type && ['checkbox','radio'].indexOf(e.type)) { 
+			if(e.type && ['checkbox','radio'].indexOf(e.type) !== -1) {
 				e.click();
 			} else {
 				e.value = inputs[element]; triggerChange(e); 
