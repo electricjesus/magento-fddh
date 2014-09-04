@@ -24,7 +24,7 @@
 		'[name="billing[customer_password]"' 		:  '',
 		'[name="billing[confirm_password]"' 		:  '',
 		'[name="billing[save_in_address_book]"'		:  '1',
-		'[name="billing[use_for_shipping]"' 		:  '0',
+		'[name="billing[use_for_shipping]"' 		:  '1',
 
 		'[name="shipping[firstname]"' 				:  'Mary',
 		'[name="shipping[lastname]"' 				:  'Watson',
@@ -48,7 +48,13 @@
 
 	for(element in inputs) {
 		var e = document.querySelector(element);
-		if(e)	{ e.value = inputs[element]; triggerChange(e); }
-		else	{ console.log("missing", element)};
+		if(e)	{
+			if(e.type && ['checkbox','radio'].indexOf(e.type)) { 
+				e.click();
+			} else {
+				e.value = inputs[element]; triggerChange(e); 
+			}
+
+		} else	{ console.log("missing", element)};
 	}
 })(document)
